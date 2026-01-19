@@ -1,6 +1,12 @@
-name = "Saida"
-surname = "Mammadli"
-birth_year = 2004
-age = 2025 - int(birth_year)
+a = int(input("-> "))
+even_sum = 0
+odd_sum = 0
+for i in range(1, a + 1):
+    if i % 2 == 0:
+        even_sum += i
+    else:
+        odd_sum += i
 
-print(f"Hi I am {name + " " + surname} and I'm {age} years old")
+
+print(f"Sum of Even numbers: {even_sum}")
+print(f"Sum of Odd numbers: {odd_sum}")
