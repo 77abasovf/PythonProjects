@@ -15,6 +15,6 @@ This is a Python project designed to practice **Loops** and **Conditional Logic*
 * **Accumulator Pattern:** Using variables like `even_sum` and `odd_sum` to store running totals.
 * **Conditional Branching:** Directing the flow of the program based on number properties.
 
-## 🛠️ Installation & Usage
+## 🛠️ Usage
 ```bash
 python main.py
